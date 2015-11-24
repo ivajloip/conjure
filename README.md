@@ -7,7 +7,7 @@ Usage
 =====
 
 ```clj
-[org.clojars.runa/conjure "2.1.3"]
+[org.clojars.ivajloip/conjure "2.3.0"]
 
 (:require [conjure.core])
 ```

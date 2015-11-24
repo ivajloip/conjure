@@ -1,7 +1,10 @@
 (def common-deps '[])
 
-(defproject org.clojars.runa/conjure "2.2.0"
+(defproject org.clojars.ivajloip/conjure "2.3.0"
   :description "Conjure mocking and stubbing"
+  :url "https://github.com/ivajloip/conjure"
+  :license {:name "MIT License"
+            :url "http://www.opensource.org/licenses/mit-license.php"}
   :dependencies ~(cons '[org.clojure/clojure "1.3.0"]
                    common-deps)
   :dev-dependencies [[jonase/kibit "0.0.3"]
